@@ -1,0 +1,77 @@
+
+//  /* dark mode  */
+//  $pcolor:#FFCA28;
+//  $bgcolor:#1d1d1d;
+//  $ptext:#F3F3F3;
+//  $stext:#A1A1A6;
+//  $bscolor: #424242;
+ 
+ 
+ //  Light mode
+//  $pcolor:#FFCA28;
+ $pcolor:#0077B5; // Linkedin color
+ $bgcolor:#F9FAFF;
+ $ptext:#1d1d1d;
+ $stext:#666666;
+ $bscolor: #d6d6d6;
+
+//  ******************************
+
+
+
+
+
+.navbar{
+   z-index:99;
+   width:100%;
+   padding:0.5rem 2rem;
+   
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   background: rgba(255, 255, 255, 0);
+   backdrop-filter: blur(30px);
+   position: sticky;
+   top:0;
+   color:$stext;
+
+}
+.tittle{
+    width:7rem;
+    height:auto;
+}
+.links {
+    display: flex;
+    align-items: center;
+}
+.links a{
+    margin:0em 1em;
+    position:relative;
+    img{
+        height:auto;
+    }
+    
+}
+
+
+
+// ***************************
+@media screen and (max-width:760px) {
+    .navbar{
+        color:$stext;
+              padding: 4px 0px;
+
+
+.links{
+    margin-top: -0.5rem;
+}        
+.links a{
+    margin:-1em 0.5em;
+    font-size: 14px;
+
+   
+}
+
+     }
+}
